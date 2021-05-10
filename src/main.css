@@ -1,0 +1,17 @@
+/**
+  * Language:
+  * RR: Revert Rebrand
+  * var: CSS variable
+*/
+
+:root {
+  --rr-brand-original: #7289da;
+}
+
+body {
+  /* Revert to old font var */
+  --font-display: var(--font-primary);
+
+  /* Use RR brand var */
+  --brand-experiment: var(--rr-brand-original);
+}
