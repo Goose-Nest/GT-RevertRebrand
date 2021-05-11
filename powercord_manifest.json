@@ -1,7 +1,7 @@
 {
   "name": "Revert Rebrand",
   "description": "Reverts Discord's 2021 rebrand (font, colors)",
-  "version": "1.2",
+  "version": "1.3",
   "author": "GooseNest",
   "license": "MIT",
   "theme": "src/main.css"
