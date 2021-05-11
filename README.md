@@ -4,5 +4,6 @@ Reverts Discord's 2021 rebrand (font, colors, reactions, mentions, loading scree
 
 ## Mods Supported
 
-- [Powercord](https://powercord.dev)
-- [BetterDiscord](https://betterdiscord.app)
+- Powercord
+- BetterDiscord
+- Vizality
