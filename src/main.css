@@ -1,9 +1,20 @@
 body {
+  /* Revert new green to old color */
+  --old-green: #43b581;
+  --info-positive-foreground: var(--old-green);
+  --status-positive-background: var(--old-green);
+  --text-positive: var(--old-green);
+
+  /* Revert new red to old color */
+  --old-red: #f04747;
+  --text-danger: var(--old-red);
+  --info-danger-foreground: var(--old-red);
+  --status-danger-background: var(--old-red);
+
   /* Revert to old font var */
   --font-display: var(--font-primary);
 
   /* Found in Discord's CSS file: oldBrand vs newBrand HTML class - here we force old brand vars via copying */
-  
   --brand-experiment-100: #f8f9fd;
   --brand-experiment-130: #f2f4fc;
   --brand-experiment-160: #ebeefa;
@@ -93,4 +104,21 @@ body {
 /* Revert ping mention button being link colored (used to be brand) */
 .colorLink-2vG20E.size14-e6ZScH.mentionButton-3710-W {
   color: var(--brand-experiment) !important;
+}
+
+/* Revert specific elements with old colors */
+
+/* Online status */
+.wrapper-3t9DeA rect.pointerEvents-2zdfdO[mask="url(#svg-mask-status-online)"]{
+  fill: var(--old-green);
+}
+
+/* Filled green buttons */
+.button-38aScr.lookFilled-1Gx00P.colorGreen-29iAKY {
+  background-color: var(--old-green);
+}
+
+/* Filled red buttons */
+.button-38aScr.lookFilled-1Gx00P.colorRed-1TFJan {
+  background-color: var(--old-red);
 }
