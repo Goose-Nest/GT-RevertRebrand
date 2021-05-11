@@ -72,3 +72,8 @@ body {
 .reactionInner-15NvIl {
   padding: .15rem .25rem;
 }
+
+/* Revert loading tip title color */
+.tipTitle-GL9qAt {
+  color: var(--brand-experiment) !important;
+}
