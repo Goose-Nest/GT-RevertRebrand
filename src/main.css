@@ -59,3 +59,16 @@ body {
   color: var(--brand-experiment-530) !important;
   background: var(--brand-experiment-15a) !important;
 }
+
+/* Revert reactions */
+.reaction-1hd86g {
+  border-radius: .25rem;
+}
+
+.reaction-1hd86g.reactionMe-wv5HKu {
+  border-color: transparent !important;
+}
+
+.reactionInner-15NvIl {
+  padding: .15rem .25rem;
+}
