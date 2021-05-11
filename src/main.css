@@ -56,22 +56,27 @@ body {
 
 /* Revert mentions */
 .wrapper-3WhCwL {
-  color: var(--brand-experiment-530) !important;
-  background: var(--brand-experiment-15a) !important;
+  color: var(--brand-experiment-530);
+  background: var(--brand-experiment-15a);
 }
 
 /* Revert reactions */
 .reaction-1hd86g {
   border-radius: .25rem;
-  background: var(--background-floating);
+  background: var(--background-accent);
 }
 
 .reaction-1hd86g.reactionMe-wv5HKu {
-  border-color: transparent !important;
+  border-color: transparent;
 }
 
 .reaction-1hd86g.reactionMe-wv5HKu .reactionCount-2mvXRV {
-  color: var(--brand-experiment) !important;
+  color: var(--brand-experiment);
+}
+
+.reaction-1hd86g:hover {
+  background: var(--brand-experiment-50a);
+  border-color: transparent;
 }
 
 .reactionInner-15NvIl {
