@@ -63,6 +63,7 @@ body {
 /* Revert reactions */
 .reaction-1hd86g {
   border-radius: .25rem;
+  background: var(--background-floating);
 }
 
 .reaction-1hd86g.reactionMe-wv5HKu {
