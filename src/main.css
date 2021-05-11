@@ -53,3 +53,9 @@ body {
   --brand-experiment-90a: rgba(114,137,218,0.9);
   --brand-experiment-95a: rgba(114,137,218,0.95);
 }
+
+/* Revert mentions */
+.wrapper-3WhCwL {
+  color: var(--brand-experiment-530) !important;
+  background: var(--brand-experiment-15a) !important;
+}
