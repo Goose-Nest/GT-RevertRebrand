@@ -57,17 +57,21 @@ body {
 /* Revert mentions */
 .wrapper-3WhCwL {
   color: var(--brand-experiment-530) !important;
-  background: var(--brand-experiment-15a);
+  background: var(--brand-experiment-10a) !important;
+}
+
+.wrapper-3WhCwL:hover {
+  background: var(--brand-experiment-25a) !important;
 }
 
 /* Revert reactions */
 .reaction-1hd86g {
   border-radius: .25rem;
-  background: var(--background-accent);
+  background: var(--background-accent) !important;
 }
 
 .reaction-1hd86g.reactionMe-wv5HKu {
-  border-color: transparent;
+  border-color: transparent !important;
 }
 
 .reaction-1hd86g.reactionMe-wv5HKu .reactionCount-2mvXRV {
@@ -75,8 +79,8 @@ body {
 }
 
 .reaction-1hd86g:hover {
-  background: var(--brand-experiment-50a);
-  border-color: transparent;
+  background: var(--brand-experiment-50a) !important;
+  border-color: transparent !important;
 }
 
 .reactionInner-15NvIl {
