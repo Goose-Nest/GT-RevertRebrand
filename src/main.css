@@ -69,6 +69,10 @@ body {
   border-color: transparent !important;
 }
 
+.reaction-1hd86g.reactionMe-wv5HKu .reactionCount-2mvXRV {
+  color: var(--brand-experiment) !important;
+}
+
 .reactionInner-15NvIl {
   padding: .15rem .25rem;
 }
