@@ -67,7 +67,7 @@ body {
 /* Revert reactions */
 .reaction-1hd86g {
   border-radius: .25rem;
-  background: var(--background-accent) !important;
+  background: var(--background-accent);
 }
 
 .reaction-1hd86g.reactionMe-wv5HKu {
@@ -81,9 +81,6 @@ body {
 .reaction-1hd86g:hover {
   background: var(--brand-experiment-50a) !important;
   border-color: transparent !important;
-}
-
-.reactionInner-15NvIl {
 }
 
 /* Revert loading tip title color */
