@@ -127,3 +127,10 @@ body {
 .input-cIJ7To.focused-1mmYsC, .input-cIJ7To:focus {
   border-color: var(--brand-experiment);
 }
+
+
+/* Old Discord Nitro Settings Tab */
+.flex-1xMQg5.flex-1O1GKY.horizontal-1ae9ci.horizontal-2EEEnY.flex-1O1GKY.directionRow-3v3tfG.justifyBetween-2tTqYu.alignCenter-1dQNNs.noWrap-3jynv6 > svg.icon-Zc-uZZ, .premiumTabItem-1QTfBr.item-PXvHYJ.themed-OHr7kt {
+    color: #7289DA;
+    fill: #7289DA;
+}
