@@ -153,3 +153,8 @@ body {
 .input-cIJ7To.focused-1mmYsC, .input-cIJ7To:focus {
   border-color: var(--brand-experiment);
 }
+
+/* On switches to old green */
+.control-2BBjec .container-3auIfb[style="opacity: 1; background-color: rgb(59, 165, 92);"] {
+  background-color: var(--old-green) !important;
+}
