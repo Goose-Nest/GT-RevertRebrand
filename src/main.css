@@ -86,7 +86,7 @@ body {
 }
 
 .reaction-1hd86g .reactionCount-2mvXRV {
-  color: var(--text-muted);
+  color: var(--text-muted); /* A11Y-- */
 }
 
 .reaction-1hd86g .reactionInner-15NvIl {
@@ -95,7 +95,7 @@ body {
 
 /* Self reactions */
 .reaction-1hd86g.reactionMe-wv5HKu .reactionCount-2mvXRV {
-  color: var(--brand-experiment);
+  color: var(--brand-experiment); /* A11Y-- */
 }
 
 .reaction-1hd86g.reactionMe-wv5HKu {
@@ -103,10 +103,6 @@ body {
 }
 
 /* Reaction hover */
-.reaction-1hd86g:hover {
-  background: var(--background-modifier-accent) !important;
-}
-
 .reaction-1hd86g:hover .reactionCount-2mvXRV {
   color: var(--interactive-active) !important;
 }
