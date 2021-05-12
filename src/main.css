@@ -78,7 +78,7 @@ body {
 /* Revert reactions */
 .reaction-1hd86g {
   border-radius: .25rem;
-  background: var(--background-modifier-accent);
+  background: var(--background-modifier-selected);
 
   border-color: transparent !important;
 }
