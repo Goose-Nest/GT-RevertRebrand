@@ -7,3 +7,6 @@ Reverts Discord's 2021 rebrand (font, colors, reactions, mentions, loading scree
 - Powercord
 - BetterDiscord
 - Vizality
+
+## Screenshots
+
