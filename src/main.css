@@ -93,7 +93,11 @@ body {
 }
 
 .reaction-1hd86g:hover {
-  background: var(--brand-experiment-50a) !important;
+  background: var(--background-modifier-accent) !important;
+}
+
+.reaction-1hd86g:hover .reactionCount-2mvXRV {
+  color: var(--interactive-active) !important;
 }
 
 /* Revert loading tip title color */
