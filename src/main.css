@@ -113,6 +113,15 @@ body {
   fill: var(--old-green);
 }
 
+.wrapper-3t9DeA rect.pointerEvents-2zdfdO[mask="url(#svg-mask-status-online-mobile)"]{
+  fill: var(--old-green);
+}
+
+.avatarWrapper-2yR4wp div > svg > rect {
+  fill: var(--old-green);
+  mask: url(#svg-mask-status-online);
+}
+
 /* Filled green buttons */
 .button-38aScr.lookFilled-1Gx00P.colorGreen-29iAKY {
   background-color: var(--old-green);
