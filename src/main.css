@@ -163,3 +163,8 @@ body {
 .premiumTabItem-1QTfBr .icon-Zc-uZZ {
   display: none;
 }
+
+/* Color BD specific settings elements */
+.bd-addon-views .bd-view-button.selected, .bd-button {
+  background-color: var(--brand-experiment);
+}
