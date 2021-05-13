@@ -218,3 +218,8 @@ body {
 .colorable-1bkp8v.green-plH-Mj {
   background-color: var(--old-green);
 }
+
+/* Change the lock icon in the settings, it's an img tag so we need to use the content: css attribute instead of background-image */
+.lockIcon-2Hj8Tq[src="/assets/acea8fd38500a12d0509c027a274caaa.svg"] {
+  content: url("https://raw.githubusercontent.com/Minion3665/GT-RevertRebrand/patch-1/src/assets/mfa_lock_icon.svg") !important;
+}
