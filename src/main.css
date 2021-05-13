@@ -155,7 +155,7 @@ body {
 }
 
 /* On switches to old green */
-.control-2BBjec .container-3auIfb[style="opacity: 1; background-color: rgb(59, 165, 92);"] {
+.container-3auIfb[style="opacity: 1; background-color: rgb(59, 165, 92);"] {
   background-color: var(--old-green) !important;
 }
 
