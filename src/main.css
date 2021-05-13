@@ -159,6 +159,35 @@ body {
   background-color: var(--old-green) !important;
 }
 
+/* Restyle the create server and discovery buttons to the old green */
+.circleIconButton-1QV--U.circleButtonBase-2DCxIZ {
+  color: var(--old-green);
+}
+.circleIconButton-1QV--U.circleButtonBase-2DCxIZ.selected-1JjBPm {
+  color: white;
+  background-color: var(--old-green);
+}
+
+/* Fix misc SVGs that for some reason sometimes weren't targeted by the previous rules (particularly presence SVGs) */
+*[fill="#3ba55c"] {
+  fill: var(--old-green);
+}
+
+/* Fix the call icons in chat */
+.icon-2Po-VO {
+  background-image: url("https://raw.githubusercontent.com/Goose-Nest/GT-RevertRebrand/main/src/call-icon.svg") !important;
+}
+
+/* Fix the speaking ring around your avatar in the bottom left corner of your screen */
+.avatarSpeaking-2c8-9i {
+  box-shadow: inset 0 0 0 2px var(--old-green),inset 0 0 0 3px #2f3136;
+}
+
+/* And fix speaking avatars in calls in general */
+.speaking-B2MXPi.border-Jn5IOt {
+  box-shadow: inset 0 0 0 2px var(--old-green),inset 0 0 0 3px #2f3136;
+}
+
 /* Revert new Nitro icon by setting item */
 .premiumTabItem-1QTfBr .icon-Zc-uZZ {
   display: none;
