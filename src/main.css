@@ -209,6 +209,6 @@ body {
 }
 
 /* Green radio bars (privacy and safety settings) */
-.radioBar-bMNUI-[style="--radio-bar-accent-color:#3ba55c;padding: 10px;"] {
+.radioBar-bMNUI-[style="--radio-bar-accent-color:#3ba55c; padding: 10px;"] {
   --radio-bar-accent-color: var(--old-green) !important;
 }
