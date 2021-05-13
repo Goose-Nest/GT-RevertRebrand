@@ -158,3 +158,17 @@ body {
 .control-2BBjec .container-3auIfb[style="opacity: 1; background-color: rgb(59, 165, 92);"] {
   background-color: var(--old-green) !important;
 }
+
+/* Restyle the create server and discovery buttons to the new green */
+.circleIconButton-1QV--U.circleButtonBase-2DCxIZ {
+  color: var(--old-green);
+}
+.circleIconButton-1QV--U.circleButtonBase-2DCxIZ.selected-1JjBPm {
+  color: white;
+  background-color: var(--old-green);
+}
+
+/* Fix misc SVGs that for some reason sometimes weren't targeted by the previous rules (particularly presence SVGs) */
+*[fill="#3ba55c"] {
+  fill: var(--old-green);
+}
