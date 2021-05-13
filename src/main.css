@@ -207,3 +207,8 @@ body {
 .icon-2Po-VO.iconSize-2tmqqh[style='background-image: url("/assets/e06a573355c490f7ce6e3125ac01db81.svg");'] {
   background-image: url("https://Goose-Nest.github.io/GT-RevertRebrand/src/assets/server_join_icon.svg") !important;
 }
+
+/* Green radio bars (privacy and safety settings) */
+.radioBar-bMNUI-[style="--radio-bar-accent-color:#3ba55c;padding: 10px;"] {
+  --radio-bar-accent-color: var(--old-green) !important;
+}
