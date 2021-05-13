@@ -168,3 +168,8 @@ body {
 .bd-addon-views .bd-view-button.selected, .bd-button {
   background-color: var(--brand-experiment);
 }
+
+/* Verified check mark color */
+.verified-1eC5dy {
+  color: var(--old-green);
+}
