@@ -155,11 +155,11 @@ body {
 }
 
 /* On switches to old green */
-.control-2BBjec .container-3auIfb[style="opacity: 1; background-color: rgb(59, 165, 92);"] {
+.container-3auIfb[style="opacity: 1; background-color: rgb(59, 165, 92);"] {
   background-color: var(--old-green) !important;
 }
 
-/* Restyle the create server and discovery buttons to the new green */
+/* Restyle the create server and discovery buttons to the old green */
 .circleIconButton-1QV--U.circleButtonBase-2DCxIZ {
   color: var(--old-green);
 }
@@ -188,3 +188,22 @@ body {
   box-shadow: inset 0 0 0 2px var(--old-green),inset 0 0 0 3px #2f3136;
 }
 
+/* Revert new Nitro icon by setting item */
+.premiumTabItem-1QTfBr .icon-Zc-uZZ {
+  display: none;
+}
+
+/* Color BD specific settings elements */
+.bd-addon-views .bd-view-button.selected, .bd-button {
+  background-color: var(--brand-experiment);
+}
+
+/* Verified check mark color */
+.verified-1eC5dy {
+  color: var(--old-green);
+}
+
+/* Server join icon to old green (arrow left to join system message) */
+.icon-2Po-VO.iconSize-2tmqqh[style='background-image: url("/assets/e06a573355c490f7ce6e3125ac01db81.svg");'] {
+  background-image: url("https://Goose-Nest.github.io/GT-RevertRebrand/src/assets/server_join_icon.svg") !important;
+}
