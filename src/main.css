@@ -212,3 +212,9 @@ body {
 .radioBar-bMNUI-[style="--radio-bar-accent-color:#3ba55c; padding: 10px;"] {
   --radio-bar-accent-color: var(--old-green) !important;
 }
+
+/* Change green colorables from the new green color to the old green color. */
+/* In particular, this fixes the join call buttons, but it may also fix other stuff around the app */
+.colorable-1bkp8v.green-plH-Mj {
+  background-color: var(--old-green);
+}
