@@ -180,12 +180,12 @@ body {
 
 /* Fix the speaking ring around your avatar in the bottom left corner of your screen */
 .avatarSpeaking-2c8-9i {
-  box-shadow: inset 0 0 0 2px var(--old-green),inset 0 0 0 3px #2f3136;
+  box-shadow: inset 0 0 0 2px var(--old-green), inset 0 0 0 3px #2f3136;
 }
 
 /* And fix speaking avatars in calls in general */
 .speaking-B2MXPi.border-Jn5IOt {
-  box-shadow: inset 0 0 0 2px var(--old-green),inset 0 0 0 3px #2f3136;
+  box-shadow: inset 0 0 0 2px var(--old-green), inset 0 0 0 3px #2f3136;
 }
 
 /* Revert new Nitro icon by setting item */
