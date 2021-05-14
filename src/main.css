@@ -221,5 +221,17 @@ body {
 
 /* Change the lock icon in the settings, it's an img tag so we need to use the content: css attribute instead of background-image */
 .lockIcon-2Hj8Tq[src="/assets/acea8fd38500a12d0509c027a274caaa.svg"] {
-  content: url("https://raw.githubusercontent.com/Minion3665/GT-RevertRebrand/patch-1/src/assets/mfa_lock_icon.svg") !important;
+  content: url("https://Goose-Nest.github.io/GT-RevertRebrand/src/assets/mfa_lock_icon.svg") !important;
+}
+
+/* Permission checkmarks in authorized apps to the old green */
+/* The images in these are specified by class, so it's impossible to get more specific of a match than this */
+.permissionCheckmark-1SeKr2 {
+  background: url("https://Goose-Nest.github.io/GT-RevertRebrand/src/assets/authorized_apps_checkmark_icon.svg") no-repeat;
+}
+
+/* Change all radio bars with the new green to the old green */
+/* In particular, this fixes the privacy and safety settings' 'keep me safe' option */
+.radioBar-bMNUI-[style*="--radio-bar-accent-color:#3ba55c"] {
+  border-left: 3px solid var(--old-green);
 }
