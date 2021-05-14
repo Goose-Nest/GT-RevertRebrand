@@ -208,11 +208,6 @@ body {
   background-image: url("https://Goose-Nest.github.io/GT-RevertRebrand/src/assets/server_join_icon.svg") !important;
 }
 
-/* Green radio bars (privacy and safety settings) */
-.radioBar-bMNUI-[style="--radio-bar-accent-color:#3ba55c; padding: 10px;"] {
-  --radio-bar-accent-color: var(--old-green) !important;
-}
-
 /* Change green colorables from the new green color to the old green color. */
 /* In particular, this fixes the join call buttons, but it may also fix other stuff around the app */
 .colorable-1bkp8v.green-plH-Mj {
