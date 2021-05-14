@@ -193,6 +193,11 @@ body {
   background-color: var(--old-green);
 }
 
+/* Also fix the colorables when they're active or being hovered over, for example when hovering over the call buttons */
+.colorable-1bkp8v.green-plH-Mj.active-1QRrIS, .colorable-1bkp8v.green-plH-Mj:hover {
+  background: var(--old-green);
+}
+
 /* Verified check mark color */
 .verified-1eC5dy {
   color: var(--old-green);
