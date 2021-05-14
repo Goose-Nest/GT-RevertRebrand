@@ -66,13 +66,22 @@ body {
 }
 
 /* Revert mentions */
-.wrapper-3WhCwL {
-  color: var(--brand-experiment-530) !important;
-  background: var(--brand-experiment-10a) !important;
+#app-mount .wrapper-3WhCwL {
+  color: var(--brand-experiment-530);
+  background: var(--brand-experiment-10a);
 }
 
-.wrapper-3WhCwL:hover {
-  background: var(--brand-experiment-25a) !important;
+#app-mount .wrapper-3WhCwL:hover {
+  background: var(--brand-experiment-95a);
+  color: white;
+}
+
+#app-mount .mentioned-xhSam7 .mention {
+  background: transparent !important
+}
+
+#app-mount .mentioned-xhSam7 .mention:hover {
+  color: var(--brand-experiment-530);
 }
 
 /* Revert reactions */
