@@ -33,3 +33,7 @@
 .reaction-1hd86g:hover {
   background-color: var(--background-modifier-selected);
 }
+
+.reaction-1hd86g.reactionMe-wv5HKu:hover {
+  background-color: var(--brand-experiment-40a);
+}
