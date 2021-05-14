@@ -4,5 +4,5 @@
   "version": "2.6",
   "author": "GooseNest",
   "license": "MIT",
-  "theme": "src/main.css"
+  "theme": "src/main.scss"
 }
