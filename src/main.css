@@ -212,3 +212,21 @@ body {
 .radioBar-bMNUI-[style="--radio-bar-accent-color:#3ba55c; padding: 10px;"] {
   --radio-bar-accent-color: var(--old-green) !important;
 }
+/* Revert wordmark */
+@font-face {
+  font-family: 'Discord';
+  font-weight: 700;
+  src: url("https://raw.githubusercontent.com/powercord-org/powercord-backend/my-awesome-branch/web/src/assets/discord-font.otf") format("opentype");
+}
+.wordmark-2iDDfm:after {
+  content: "Discord";
+  font-size: 15px;
+  position: absolute;
+  width: 4000px;
+  top: 5px;
+  padding-left: 0px;
+  font-family: 'Discord';
+}
+.wordmark-2iDDfm > svg {
+  width: 0px;
+}
