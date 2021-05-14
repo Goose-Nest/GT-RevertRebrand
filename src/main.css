@@ -101,6 +101,10 @@ body {
   color: var(--interactive-active) !important;
 }
 
+.reaction-1hd86g:hover {
+  background-color: var(--background-modifier-selected);
+}
+
 /* Color BD specific settings elements */
 .bd-addon-views .bd-view-button.selected, .bd-button {
   background-color: var(--brand-experiment);

@@ -29,3 +29,7 @@
 .reaction-1hd86g:hover .reactionCount-2mvXRV {
   color: var(--interactive-active) !important;
 }
+
+.reaction-1hd86g:hover {
+  background-color: var(--background-modifier-selected);
+}
