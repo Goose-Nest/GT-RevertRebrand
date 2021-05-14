@@ -25,12 +25,12 @@
 }
 
 /* Online status */
-.wrapper-3t9DeA rect.pointerEvents-2zdfdO[mask="url(#svg-mask-status-online)"] {
+.wrapper-3t9DeA rect.pointerEvents-2zdfdO[mask="url(#svg-mask-status-online)"]:not([fill="#ffffff"]) {
   fill: var(--old-green);
 }
 
 /* Online status (mobile) */
-.wrapper-3t9DeA rect.pointerEvents-2zdfdO[mask="url(#svg-mask-status-online-mobile)"] {
+.wrapper-3t9DeA rect.pointerEvents-2zdfdO[mask="url(#svg-mask-status-online-mobile)"]:not([fill="#ffffff"]) {
   fill: var(--old-green);
 }
 
