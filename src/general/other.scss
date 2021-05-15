@@ -1,3 +1,8 @@
+// BD settings elements
+.bd-addon-views .bd-view-button.selected, .bd-button {
+  background-color: var(--brand-experiment);
+}
+
 // Verified & Partenered servers
 .verified-1eC5dy,
 .partnered-3nJayh { // this is pretty much future-proofing
@@ -32,7 +37,7 @@
  * ? "Revert the command names and 'dismiss message' button to blurple"
  * * what the hell is the first thingie
 **/
-.commandName-1klrjB.clickable-1bVtEA, .ephemeralMessage-1fEWtQ .anchor-3Z-8Bb.anchorUnderlineOnHover-2ESHQB[role="button"] {
+.commandName-1klrjB.clickable-1bVtEA, .ephemeralMessage-1fEWtQ .anchorUnderlineOnHover-2ESHQB[role="button"] {
   color: var(--brand-experiment);
 }
 
