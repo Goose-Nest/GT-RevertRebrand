@@ -1,6 +1,8 @@
 body {
   //Revert new green to old color
   --old-green: #43b581;
+  --old-green-500: #3da475;
+  --old-green-530: #369168;
   --info-positive-foreground: var(--old-green);
   --status-positive-background: var(--old-green);
   --text-positive: var(--old-green);

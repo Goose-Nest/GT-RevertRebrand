@@ -1,8 +1,16 @@
 //? this "category(this file/file name)" is confusing me a bit
 
 // Active switches
-.container-3auIfb[style$="background-color: rgb(59, 165, 92);"] {
-  background-color: var(--old-green) !important;
+.container-3auIfb { // this is horrible, but it works (https://github.com/Goose-Nest/GT-RevertRebrand/issues/21 issues 8 and 9)
+  &[style*="opacity: 1; background-color: rgb(7"] {
+    background-color: var(--old-green-530) !important;
+  }
+  &[style*="opacity: 1; background-color: rgb(6"] {
+    background-color: var(--old-green-500) !important;
+  }
+  &[style*="opacity: 1; background-color: rgb(5"] {
+    background-color: var(--old-green) !important;
+  }
 }
 
 // Discover & Create new server buttons
@@ -36,6 +44,16 @@
   &.active-1QRrIS, &:hover { // For some reason this fixes "X Unavailable""
     background-color: var(--old-green); // * Pretty sure the hover of this also needs to be changed to something else
   }
+  &:disabled {
+    background-color: var(--old-green-530);
+    &:hover {
+      background-color: var(--old-green-500);
+    }
+  }
+}
+.lookOutlined-3sRXeN.colorGreen-29iAKY {
+  border-color: var(--old-green);
+  color: var(--old-green);
 }
 
 /**

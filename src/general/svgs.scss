@@ -5,6 +5,14 @@ svg {
   [fill="#3ba55c"] {
     fill: var(--old-green);
   }
+  &.perkIcon-3bbUNB.unlocked-251xRB { // Checkmark on boost perks (https://github.com/Goose-Nest/GT-RevertRebrand/issues/21 issue 4)
+    color: var(--old-green);
+  }
+  &.activeCircle-1486wp, // Active welcome screen in server settings (https://github.com/Goose-Nest/GT-RevertRebrand/issues/21 issue 5)
+  &.checkmark-3rush5, // Checkmark on new channels (https://i.imgur.com/Favy4cz.png)
+  [style="background-color: rgb(59, 165, 92);"] {
+    background-color: var(--old-green) !important;
+  }
 }
 
 // Call icon in DMs

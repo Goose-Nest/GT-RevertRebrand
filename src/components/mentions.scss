@@ -1,10 +1,15 @@
 #app-mount .mention { // oh my god i didn't even think about ids having a heigher specificity
   color: var(--brand-experiment-460);
-  background: var(--brand-experiment-10a);
+  background-color: var(--brand-experiment-10a);
 
   &:hover {
-    background: var(--brand-experiment);
+    background-color: var(--brand-experiment);
     color: var(--brand-experiment-100);
+  }
+
+  &.roleMention-2Bj0ju:not([color], [style]):hover { // (https://github.com/Goose-Nest/GT-RevertRebrand/issues/21 issue 6)
+    color: var(--brand-experiment-460);
+    background-color: var(--brand-experiment-25a);
   }
 }
 

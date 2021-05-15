@@ -20,13 +20,12 @@
   display: none;
 }
 
-/** 
- * ? were you on crack whilst writing/testing this, be honest
- *  "Revert loading tip title color"
- *  .tipTitle-GL9qAt {
- *    color: var(--brand-experiment) !important;
- *  }
-**/
+
+// Loading tip title color"
+.tipTitle-GL9qAt {
+  color: var(--brand-experiment-100) !important;
+}
+
 
 // Home icon
 .homeIcon-FuNwkv path {
@@ -44,4 +43,37 @@
 // Invite to listen on the attachment button (imagine being able to test this ​https://i.imgur.com/EBD5FFW.png)
 .attachButtonPlay-3iJ0mf {
   color: var(--old-green);
+}
+
+// Invite people context menu item (https://github.com/Goose-Nest/GT-RevertRebrand/issues/16 issue 3)
+[id$="invite-people"] {
+  color: var(--brand-experiment)
+}
+// Delete X context menu item
+[id*="-delete-"] {
+  color: var(--old-red);
+}
+
+// Role permission checkmark when editing a channel
+.allow-1PzSY3.selected-2YhbGh {
+  background-color: var(--old-green);
+}
+
+// Tooltip when copying your tag (https://github.com/Goose-Nest/GT-RevertRebrand/issues/16 issue 12)
+.tooltipGreen-WdeQwd {
+  background-color: var(--old-green);
+  .tooltipPointer-3ZfirK {
+    border-top-color: var(--old-green)
+  }
+}
+.tooltipRed-8-9NeP {
+  background-color: var(--old-red);
+  .tooltipPointer-3ZfirK {
+    border-top-color: var(--old-red);
+  }
+}
+
+// Dragging a channel (https://github.com/Goose-Nest/GT-RevertRebrand/issues/16 issue 13)
+.containerDragAfter-Zk9oyx:before, .containerDragBefore-1YqewQ:before {
+  background-color: var(--old-green);
 }
