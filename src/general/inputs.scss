@@ -22,7 +22,7 @@
   }
 }
 
-// User popout
+// Input fields
 .input-cIJ7To.focused-1mmYsC, .input-cIJ7To:focus {
   border-color: var(--brand-experiment);
 }
@@ -56,10 +56,7 @@
   color: var(--old-green);
 }
 
-/**
- * ? "Revert the 'Add Friend' button to the old green"
- * * where is that lol
-**/
-.item-3HknzM.item-PXvHYJ.themed-OHr7kt[style*="background-color: rgb(59, 165, 92);"] {
+// "Add Friend" pill on friends tab
+[aria-label="Add Friend"] {
   background-color: var(--old-green) !important;
 }
