@@ -51,3 +51,8 @@
 .lookFilled-1Gx00P.colorGreen-29iAKY {
   background-color: var(--old-green);
 }
+
+/* Revert the 'Add Friend' button to the old green*/
+.item-3HknzM.item-PXvHYJ.themed-OHr7kt[style*="background-color: rgb(59, 165, 92);"] {
+  background-color: var(--old-green) !important;
+}
