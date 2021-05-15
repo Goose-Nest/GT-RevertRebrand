@@ -46,3 +46,8 @@
 .colorLink-2vG20E.size14-e6ZScH.mentionButton-3710-W {
   color: var(--brand-experiment) !important;
 }
+
+/* Change the 'get nitro' button in the emoji popup back to the old green */
+.lookFilled-1Gx00P.colorGreen-29iAKY {
+  background-color: var(--old-green);
+}
