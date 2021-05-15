@@ -4,6 +4,7 @@
   background: var(--brand-experiment-10a);
 
   text-decoration: none !important;
+  padding: 0 1px;
 }
 
 #app-mount .wrapper-3WhCwL:hover {
