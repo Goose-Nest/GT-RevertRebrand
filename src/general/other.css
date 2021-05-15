@@ -4,6 +4,11 @@
   background-color: var(--old-green);
 }
 
+/* Also fix the colorables when they're active or being hovered over, for example when hovering over the call buttons */
+.colorable-1bkp8v.green-plH-Mj.active-1QRrIS, .colorable-1bkp8v.green-plH-Mj:hover {
+  background: var(--old-green);
+}
+
 /* Verified check mark color */
 .verified-1eC5dy {
   color: var(--old-green);
@@ -17,6 +22,11 @@
 /* And fix speaking avatars in calls in general */
 .speaking-B2MXPi.border-Jn5IOt {
   box-shadow: inset 0 0 0 2px var(--old-green), inset 0 0 0 3px #2f3136;
+}
+
+/* And fix speaking in call when your camera is enabled */
+.border-3dQmSY.speaking-WDn8Wm {
+  box-shadow: inset 0 0 0 2px var(--old-green), inset 0 0 0 3px #000;
 }
 
 /* Revert new Nitro icon by setting item */
