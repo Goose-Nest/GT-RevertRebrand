@@ -3,9 +3,7 @@
   border-radius: .25rem;
   background: var(--background-modifier-selected);
 
-  border-color: transparent !important;
-
-  margin-right: 3px;
+  border: none;
 }
 
 .reaction-1hd86g .reactionCount-2mvXRV {
@@ -13,7 +11,7 @@
 }
 
 .reaction-1hd86g .reactionInner-15NvIl {
-  padding: 0 4.5px;
+  padding: 0 .375rem;
 }
 
 /* Self reactions */
