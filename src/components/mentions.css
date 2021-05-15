@@ -5,7 +5,8 @@
 }
 
 #app-mount .wrapper-3WhCwL:hover {
-  background: var(--brand-experiment-25a);
+  background: var(--brand-experiment-95a);
+  color: var(--brand-experiment-100);
 }
 
 /* Hide semi-transparent background if mentioned in message */
