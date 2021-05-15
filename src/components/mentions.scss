@@ -1,0 +1,15 @@
+#app-mount .mention { // oh my god i didn't even think about ids having a heigher specificity
+  color: var(--brand-experiment-460);
+  background: var(--brand-experiment-10a);
+
+  &:hover {
+    background: var(--brand-experiment);
+    color: var(--brand-experiment-100);
+  }
+}
+
+//? what's this all about
+/* Hide semi-transparent background if mentioned in message */
+/* .mentioned-xhSam7 .mention {
+  background: transparent !important;
+} */

@@ -1,20 +1,20 @@
 body {
-  /* Revert new green to old color */
+  //Revert new green to old color
   --old-green: #43b581;
   --info-positive-foreground: var(--old-green);
   --status-positive-background: var(--old-green);
   --text-positive: var(--old-green);
 
-  /* Revert new red to old color */
+  // Revert new red to old color
   --old-red: #f04747;
   --text-danger: var(--old-red);
   --info-danger-foreground: var(--old-red);
   --status-danger-background: var(--old-red);
 
-  /* Revert to old font var */
+  // Revert to old font var
   --font-display: var(--font-primary);
 
-  /* Found in Discord's CSS file: oldBrand vs newBrand HTML class - here we force old brand vars via copying */
+  // Found in Discord's CSS file: oldBrand vs newBrand HTML class - here we force old brand vars via copying
   --brand-experiment-100: #f8f9fd;
   --brand-experiment-130: #f2f4fc;
   --brand-experiment-160: #ebeefa;
@@ -27,9 +27,7 @@ body {
   --brand-experiment-400: #8ea1e1;
   --brand-experiment-430: #869adf;
   --brand-experiment-460: #7d92dd;
-
   --brand-experiment: #7289da;
-
   --brand-experiment-500: #7289da;
   --brand-experiment-530: #687dc6;
   --brand-experiment-560: #5c6fb1;
@@ -43,7 +41,6 @@ body {
   --brand-experiment-830: #1a2032;
   --brand-experiment-860: #111521;
   --brand-experiment-900: #06070b;
-
   --brand-experiment-05a: rgba(114,137,218,0.05);
   --brand-experiment-10a: rgba(114,137,218,0.1);
   --brand-experiment-15a: rgba(114,137,218,0.15);

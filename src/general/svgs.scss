@@ -1,30 +1,43 @@
-/* Fix misc SVGs that for some reason sometimes weren't targeted by the previous rules (particularly presence SVGs) */
-*[fill="#3ba55c"] {
-  fill: var(--old-green);
+//! svgs are pain, just like this file
+
+// Misc green SVGs
+svg {
+  [fill="#3ba55c"] {
+    fill: var(--old-green);
+  }
 }
 
-/* Fix the call icons in chat */
+// Call icon in DMs
 .icon-2Po-VO.iconSize-2tmqqh[style='background-image: url("/assets/7f75ab26bc5deb393cd8db44d9fe14e7.svg");'] {
   background-image: url("https://Goose-Nest.github.io/GT-RevertRebrand/assets/call_icon.svg") !important;
 }
 
-/* Server join icon to old green (arrow left to join system message) */
+// Welcome message icon
 .icon-2Po-VO.iconSize-2tmqqh[style='background-image: url("/assets/e06a573355c490f7ce6e3125ac01db81.svg");'] {
   background-image: url("https://Goose-Nest.github.io/GT-RevertRebrand/assets/server_join_icon.svg") !important;
 }
 
-/* Change the lock icon in the settings, it's an img tag so we need to use the content: css attribute instead of background-image */
+/**
+ * ? "Change the lock icon in the settings, it's an img tag so we need to use the content: css attribute instead of background-image"
+ * * very nice comment, but where
+*/
 .lockIcon-2Hj8Tq[src="/assets/acea8fd38500a12d0509c027a274caaa.svg"] {
   content: url("https://Goose-Nest.github.io/GT-RevertRebrand/assets/mfa_lock_icon.svg") !important;
 }
 
-/* Permission checkmarks in authorized apps to the old green */
-/* The images in these are specified by class, so it's impossible to get more specific of a match than this */
+/**
+ * ? "Permission checkmarks in authorized apps to the old green"
+ * ? "The images in these are specified by class, so it's impossible to get more specific of a match than this"
+ * * why did you do the comment like; well the way you did lol
+**/
 .permissionCheckmark-1SeKr2 {
   background: url("https://Goose-Nest.github.io/GT-RevertRebrand/assets/authorized_apps_checkmark_icon.svg") no-repeat;
 }
 
-/* Revert the 'An adventure begins' popup to the old green */
+/**
+ * ? "Revert the 'An adventure begins' popup to the old green"
+ * * I have no idea what the hell you're even referring to
+**/
 .channelNotice-1-XFjC.invite-OjTXrW {
   background: url("https://Goose-Nest.github.io/GT-RevertRebrand/assets/add_friends_to_server.svg") no-repeat center 20px;
 }

@@ -1,0 +1,37 @@
+//* I changed the whole formatting in this file, hope it's not such a big problem
+// I also have to say, this is very accurate to the old reactions; good job 
+
+.reaction-1hd86g {
+  border: none;
+  border-radius: .25rem;
+  background: var(--background-modifier-selected);
+  
+  .reactionInner-15NvIl {
+    padding: .1rem .375rem; // this looks more accurate to me
+  }
+
+  .reactionCount-2mvXRV {
+    color: var(--text-muted);
+  }
+
+  &:hover {
+    background-color: var(--background-modifier-selected);
+
+    div.reactionCount-2mvXRV { // the "div" is pretty much an !important
+      color: var(--interactive-active);
+    }
+  }
+
+  &.reactionMe-wv5HKu {
+    background-color: var(--brand-experiment-30a);
+
+    .reactionCount-2mvXRV {
+      color: var(--brand-experiment);
+    }
+    
+    &:hover {
+      background-color: var(--brand-experiment-40a);
+    }
+  }
+}
+

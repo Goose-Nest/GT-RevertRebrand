@@ -1,0 +1,53 @@
+//? this "category(this file/file name)" is confusing me a bit
+
+// Active switches
+.container-3auIfb[style$="background-color: rgb(59, 165, 92);"] {
+  background-color: var(--old-green) !important;
+}
+
+// Discover & Create new server buttons
+.circleIconButton-1QV--U {
+  color: var(--old-green);
+  &.selected-1JjBPm {
+    color: white;
+    background-color: var(--old-green);
+  }
+}
+
+/**
+ * ? "Text input focus border color is now focus / link, change back to original brand color" - https://github.com/Goose-Nest/GT-RevertRebrand/blob/dbd15e0ac54cad9e195f81eee8cd70022252008e/src/general/inputs.css#L15
+ * * what the actual fuck is that supposed to mean
+**/
+.input-cIJ7To.focused-1mmYsC, .input-cIJ7To:focus {
+  border-color: var(--brand-experiment);
+}
+
+// "Keep me safe" option in the "Privacy & Safety" tab in user settings
+[style="--radio-bar-accent-color:#3ba55c; padding: 10px;"] { // This is horrible but for some reason I feel like it's better
+  --radio-bar-accent-color: var(--old-green) !important;
+}
+
+/** 
+ * ? "Revert ping mention button being link colored (used to be brand)" - https://github.com/Goose-Nest/GT-RevertRebrand/blob/dbd15e0ac54cad9e195f81eee8cd70022252008e/src/general/inputs.css#L45
+ * * again what the fuck
+**/
+.colorLink-2vG20E.size14-e6ZScH.mentionButton-3710-W {
+  color: var(--brand-experiment) !important;
+}
+
+// Green-colored buttons
+.lookFilled-1Gx00P.colorGreen-29iAKY,
+.colorable-1bkp8v.green-plH-Mj {
+  background-color: var(--old-green);
+  &.active-1QRrIS, &:hover { // For some reason this fixes "X Unavailable""
+    background-color: var(--old-green); // * Pretty sure the hover of this also needs to be changed to something else
+  }
+}
+
+/**
+ * ? "Revert the 'Add Friend' button to the old green"
+ * * where is that lol
+**/
+.item-3HknzM.item-PXvHYJ.themed-OHr7kt[style*="background-color: rgb(59, 165, 92);"] {
+  background-color: var(--old-green) !important;
+}
