@@ -2,10 +2,12 @@
 #app-mount .wrapper-3WhCwL {
   color: var(--brand-experiment-460);
   background: var(--brand-experiment-10a);
+
+  text-decoration: none !important;
 }
 
 #app-mount .wrapper-3WhCwL:hover {
-  background: var(--brand-experiment-95a);
+  background: var(--brand-experiment);
   color: var(--brand-experiment-100);
 }
 
