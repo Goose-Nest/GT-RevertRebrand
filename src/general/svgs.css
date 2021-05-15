@@ -23,3 +23,8 @@
 .permissionCheckmark-1SeKr2 {
   background: url("https://Goose-Nest.github.io/GT-RevertRebrand/assets/authorized_apps_checkmark_icon.svg") no-repeat;
 }
+
+/* Revert the 'An adventure begins' popup to the old green */
+.channelNotice-1-XFjC.invite-OjTXrW {
+  background: url("https://Goose-Nest.github.io/GT-RevertRebrand/assets/add_friends_to_server.svg") no-repeat center 20px;
+}
