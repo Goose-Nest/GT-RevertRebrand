@@ -80,8 +80,12 @@ body {
 .reaction-1hd86g {
   border-radius: 0.25rem;
   background: var(--background-modifier-selected);
-  border-color: transparent !important;
-  margin-right: 3px;
+  border: none;
+}
+
+.mentioned-xhSam7 .reaction-1hd86g,
+.mentioned-xhSam7 .reaction-1hd86g:hover {
+  background-color: var(--background-modifier-accent);
 }
 
 .reaction-1hd86g .reactionCount-2mvXRV {
@@ -90,7 +94,7 @@ body {
 }
 
 .reaction-1hd86g .reactionInner-15NvIl {
-  padding: 0 4.5px;
+  padding: 0 0.375rem;
 }
 
 /* Self reactions */
@@ -99,6 +103,8 @@ body {
   /* A11Y-- */
 }
 
+.mentioned-xhSam7 .reaction-1hd86g.reactionMe-wv5HKu,
+.mentioned-xhSam7 .reactionMe-wv5HKu.reaction-1hd86g:hover,
 .reaction-1hd86g.reactionMe-wv5HKu {
   background-color: var(--brand-experiment-30a);
 }
@@ -114,6 +120,27 @@ body {
 
 .reaction-1hd86g.reactionMe-wv5HKu:hover {
   background-color: var(--brand-experiment-40a);
+}
+
+/* Profile pictures */
+[src="/assets/1f0bfc0865d324c2587920a7d80c609b.png"] {
+  content: url(/assets/6debd47ed13483642cf09e832ed0bc1b.png);
+}
+
+[src="/assets/c09a43a372ba81e3018c3151d4ed4773.png"] {
+  content: url(/assets/322c936a8c8be1b803cd94861bdfa868.png);
+}
+
+[src="/assets/7c8f476123d28d103efe381543274c25.png"] {
+  content: url(/assets/dd4dbc0016779df1378e7812eabaa04d.png);
+}
+
+[src="/assets/6f26ddd1bf59740c536d2274bb834a05.png"] {
+  content: url(/assets/0e291f67c9274a1abdddeb3fd919cbaa.png);
+}
+
+[src="/assets/3c6ccb83716d1e4fb91d3082f6b21d77.png"] {
+  content: url(/assets/1cbd08c76f8af6dddce02c5138971129.png);
 }
 
 /* Color BD specific settings elements */
