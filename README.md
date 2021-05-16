@@ -3,7 +3,7 @@
 Reverts Discord's 2021 rebrand (font, colors, reactions, mentions, loading screen, home icon, reply ping color, and more)
 
 <details>
-## <summary>Mods Supported</summary>
+<summary><h2>Mods Supported</h2></summary>
 <br>
 
 - GooseMod
@@ -13,14 +13,14 @@ Reverts Discord's 2021 rebrand (font, colors, reactions, mentions, loading scree
 </details>
 
 <details>
-## <summary>Screenshots</summary>
+<summary>Screenshots</summary>
 <br>
 
 
 </details>
 
 <details>
-## <summary>Installation</summary>
+<summary>Installation</summary>
 <br>
 
 ### Powercord & Vizality
