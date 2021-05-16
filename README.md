@@ -3,15 +3,6 @@
 Reverts Discord's 2021 rebrand (font, colors, reactions, mentions, loading screen, home icon, reply ping color, and more)
 
 <details>
-<summary><strong>Mods Supported</strong></summary>
-
-- GooseMod
-- Powercord
-- BetterDiscord
-- Vizality
-</details>
-
-<details>
 <summary><strong>Screenshots</strong></summary>
 
 
