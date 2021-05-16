@@ -6,6 +6,11 @@
   border: none;
 }
 
+.mentioned-xhSam7 .reaction-1hd86g,
+.mentioned-xhSam7 .reaction-1hd86g:hover {
+    background-color:var(--background-modifier-accent);
+}
+
 .reaction-1hd86g .reactionCount-2mvXRV {
   color: var(--text-muted); /* A11Y-- */
 }
@@ -19,6 +24,8 @@
   color: var(--brand-experiment); /* A11Y-- */
 }
 
+.mentioned-xhSam7 .reaction-1hd86g.reactionMe-wv5HKu,
+.mentioned-xhSam7 .reactionMe-wv5HKu.reaction-1hd86g:hover,
 .reaction-1hd86g.reactionMe-wv5HKu {
   background-color: var(--brand-experiment-30a);
 }
