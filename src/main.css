@@ -311,4 +311,9 @@ body {
   color: var(--old-green);
 }
 
+/* Revert User Activty Color */
+.headerPlaying-j0WQBV {
+    background: var(--brand-experiment) !important;
+}
+
 /* Import all the CSS files */
