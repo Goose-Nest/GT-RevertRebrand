@@ -1,5 +1,6 @@
 body {
   /* Revert new green to old color */
+  --old-green-transparent: #43b58133;
   --old-green: #43b581;
   --info-positive-foreground: var(--old-green);
   --status-positive-background: var(--old-green);
@@ -309,6 +310,12 @@ body {
 /* Fix the color of the spotify play icon on the upload button when playing on spotify */
 .attachButtonPlay-3iJ0mf {
   color: var(--old-green);
+}
+
+/* Fixed "Add Friend" button to correct colors when selected */
+.item-3HknzM.item-PXvHYJ.themed-OHr7kt[aria-selected="true"] {
+    color: var(--old-green) !important;
+    background-color: var(--old-green-transparent) !important;
 }
 
 /* Import all the CSS files */
