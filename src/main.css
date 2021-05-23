@@ -1,6 +1,5 @@
 body {
   /* Revert new green to old color */
-  --old-green-transparent: #43b58133;
   --old-green: #43b581;
   --info-positive-foreground: var(--old-green);
   --status-positive-background: var(--old-green);
@@ -144,6 +143,15 @@ body {
   content: url(/assets/1cbd08c76f8af6dddce02c5138971129.png);
 }
 
+/* Expanded icon default color to old blurple */
+.expandedFolderIconWrapper-Huv7rA > svg[style="color: rgb(88, 101, 242);"] {
+  color: var(--brand-experiment) !important;
+}
+
+.folderIconWrapper-1_bOZe[style="background-color: rgba(88, 101, 242, 0.4);"] {
+  background-color: var(--brand-experiment-40a) !important;
+}
+
 /* Color BD specific settings elements */
 .bd-addon-views .bd-view-button.selected, .bd-button {
   background-color: var(--brand-experiment);
@@ -208,6 +216,17 @@ body {
 /* Revert the 'Add Friend' button to the old green*/
 .item-3HknzM.item-PXvHYJ.themed-OHr7kt[style*="background-color: rgb(59, 165, 92);"] {
   background-color: var(--old-green) !important;
+}
+
+/* Fixed "Add Friend" button to correct colors when selected */
+.item-3HknzM.item-PXvHYJ.themed-OHr7kt[aria-selected=true] {
+  color: var(--old-green) !important;
+  background-color: var(--old-green-transparent) !important;
+}
+
+/* Color picker default to blurple instead of new brand color */
+.colorPickerSwatch-5GX3Ve.default-cS_caM {
+  background-color: var(--brand-experiment) !important;
 }
 
 /* Fix misc SVGs that for some reason sometimes weren't targeted by the previous rules (particularly presence SVGs) */
@@ -310,12 +329,6 @@ body {
 /* Fix the color of the spotify play icon on the upload button when playing on spotify */
 .attachButtonPlay-3iJ0mf {
   color: var(--old-green);
-}
-
-/* Fixed "Add Friend" button to correct colors when selected */
-.item-3HknzM.item-PXvHYJ.themed-OHr7kt[aria-selected="true"] {
-    color: var(--old-green) !important;
-    background-color: var(--old-green-transparent) !important;
 }
 
 /* Import all the CSS files */
