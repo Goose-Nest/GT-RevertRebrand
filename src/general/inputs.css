@@ -56,3 +56,9 @@
 .item-3HknzM.item-PXvHYJ.themed-OHr7kt[style*="background-color: rgb(59, 165, 92);"] {
   background-color: var(--old-green) !important;
 }
+
+/* Fixed "Add Friend" button to correct colors when selected */
+.item-3HknzM.item-PXvHYJ.themed-OHr7kt[aria-selected="true"] {
+  color: var(--old-green) !important;
+  background-color: var(--old-green-transparent) !important;
+}
