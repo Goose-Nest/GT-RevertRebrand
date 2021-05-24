@@ -62,15 +62,18 @@ body {
 
 /* Revert mentions and channel links */
 #app-mount .wrapper-3WhCwL {
-  color: var(--brand-experiment-460);
-  background: var(--brand-experiment-10a);
-  text-decoration: none !important;
-  padding: 0 1px;
+    color: var(--brand-experiment);
+    background: var(--brand-experiment-25a);
+    text-decoration: none;
+    border-radius: 4px;
+    padding: 2px;
 }
 
 #app-mount .wrapper-3WhCwL:hover {
-  background: var(--brand-experiment);
-  color: var(--brand-experiment-100);
+    color: #fff;
+    background: var(--brand-experiment);
+    text-decoration: none;
+    transition: 0s;
 }
 
 /* Hide semi-transparent background if mentioned in message */
