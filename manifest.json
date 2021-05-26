@@ -1,8 +1,8 @@
 {
   "name": "Revert Rebrand",
   "description": "Reverts Discord's 2021 rebrand (font, colors, reactions, mentions, loading screen, home icon, reply ping color, and more)",
-  "version": "3.3",
+  "version": "4.0",
   "author": "GooseNest",
   "license": "MIT",
-  "theme": "src/main.scss"
+  "theme": "RevertRebrand.theme.css"
 }

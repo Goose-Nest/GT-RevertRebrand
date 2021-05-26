@@ -6,7 +6,43 @@
   * @invite neMncS2
   * @source https://Goose-Nest.github.io/GT-RevertRebrand/src/RevertRebrand.theme.css
   * @website https://github.com/Goose-Nest/GT-RevertRebrand
-  * @version 3.3
+  * @version 4.0
 */
 
-@import url('https://Goose-Nest.github.io/GT-RevertRebrand/src/main.css');
+/* If you do not want some things reverted, commend out imports like /* @import url("...") */
+
+/* [Recommended] Revert CSS variables: colors, fonts */
+@import url('https://Goose-Nest.github.io/GT-RevertRebrand/src/variables.css');
+
+
+/* Individual components: */
+
+/* Revert mentions */
+@import url('https://Goose-Nest.github.io/GT-RevertRebrand/src/components/mentions.css');
+
+/* Revert reactions */
+@import url('https://Goose-Nest.github.io/GT-RevertRebrand/src/components/reactions.css');
+
+/* Revert profile pictures */
+@import url('https://Goose-Nest.github.io/GT-RevertRebrand/src/components/pfps.css');
+
+/* Revert folders (default colors back to old blurple) */
+@import url('https://Goose-Nest.github.io/GT-RevertRebrand/src/components/folders.css');
+
+/* Revert new user modals */
+@import url('https://Goose-Nest.github.io/GT-RevertRebrand/src/components/oldUserModal.css');
+
+
+/* General changes: */
+
+/* Revert some BD specific elements */
+@import url('https://Goose-Nest.github.io/GT-RevertRebrand/src/general/bd.css');
+
+/* Revert some inputs */
+@import url('https://Goose-Nest.github.io/GT-RevertRebrand/src/general/inputs.css');
+
+/* Revert some SVGs (colors for smaller icons) */
+@import url('https://Goose-Nest.github.io/GT-RevertRebrand/src/general/svgs.css');
+
+/* Revert some other minor things */
+@import url('https://Goose-Nest.github.io/GT-RevertRebrand/src/general/other.css');
