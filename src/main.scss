@@ -1,13 +1,37 @@
-/* Import all the CSS files */
+/* If you do not want some things reverted, commend out imports like /* @import url("...") */
 
+/* [Recommended] Revert CSS variables: colors, fonts */
 @use "variables";
 
+
+/* Individual components: */
+
+/* Revert mentions */
 @use "components/mentions";
+
+/* Revert reactions */
 @use "components/reactions";
+
+/* Revert profile pictures */
 @use "components/pfps";
+
+/* Revert folders (default colors back to old blurple) */
 @use "components/folders";
 
+/* Revert new user modals */
+@use "components/oldUserModal";
+
+
+/* General changes: */
+
+/* Revert some BD specific elements */
 @use "general/bd";
+
+/* Revert some inputs */
 @use "general/inputs";
+
+/* Revert some SVGs (colors for smaller icons) */
 @use "general/svgs";
+
+/* Revert some other minor things */
 @use "general/other";
