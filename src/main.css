@@ -331,4 +331,9 @@ body {
   color: var(--old-green);
 }
 
+/* Reverted the 'Invite People' server dropdown option */
+.colorBrand-ROmMP1 {
+    color: var(--brand-experiment-360);
+}
+
 /* Import all the CSS files */
