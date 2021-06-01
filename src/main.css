@@ -333,7 +333,7 @@ body {
 
 /* Reverted the 'Invite People' server dropdown option */
 .colorBrand-ROmMP1 {
-    color: var(--brand-experiment-360);
+    color: var(--brand-experiment);
 }
 
 /* Import all the CSS files */
