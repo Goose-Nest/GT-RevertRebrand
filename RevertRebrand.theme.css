@@ -29,6 +29,9 @@
 /* Revert folders (default colors back to old blurple) */
 @import url('https://Goose-Nest.github.io/GT-RevertRebrand/src/components/folders.css');
 
+/* Revert windows wordmark */
+@import url('https://Goose-Nest.github.io/GT-RevertRebrand/src/components/wordmark.css');
+
 /* [Optional] Revert new user popouts */
 /* @import url('https://Goose-Nest.github.io/GT-RevertRebrand/src/components/userPopout.css'); */
 
