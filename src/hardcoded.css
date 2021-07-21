@@ -1,3 +1,4 @@
+/* Generated output fixing hardcoded colors generally (semi-experimental) */
 .lookFilled-1Gx00P.colorYellow-2JqYwt { color: #ffffff; background-color: var(--text-warning); }
 .lookFilled-1Gx00P.colorYellow-2JqYwt:disabled { background-color: var(--text-warning); }
 .lookInverted-2D7oAl.colorYellow-2JqYwt { color: var(--text-warning); background-color: #ffffff; }
@@ -340,4 +341,11 @@ html .invoiceCancelRow-3mYhFX { color: var(--text-danger); }
   .logo-28n2Vu { margin: 0px auto; width: 50px; height: 50px; }
   .button-2A8AGi { background-color: var(--interactive-active); margin-top: 16px; align-self: center; }
   .button-2A8AGi, .button-2A8AGi:hover { color:var(--brand-experiment); }
+}
+
+/* Manual fixes */
+
+/* Fix hardcoded unread bar not being red */
+.isUnread-3Ef-o9 {
+  border-color: var(--divider-color) !important;
 }
