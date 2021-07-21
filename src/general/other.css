@@ -68,3 +68,8 @@
 .attachButtonPlay-3iJ0mf {
   color: var(--old-green);
 }
+
+/* Fix hardcoded unread bar not being red */
+.isUnread-3Ef-o9 {
+  border-color: var(--divider-color) !important;
+}
