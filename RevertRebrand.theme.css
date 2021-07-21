@@ -6,13 +6,16 @@
   * @invite neMncS2
   * @source https://Goose-Nest.github.io/GT-RevertRebrand/src/RevertRebrand.theme.css
   * @website https://github.com/Goose-Nest/GT-RevertRebrand
-  * @version 4.2
+  * @version 5.0
 */
 
 /* If you do not want some things reverted, commend out imports like /* @import url("...") */
 
 /* [Recommended] Revert CSS variables: colors, fonts */
 @import url('https://Goose-Nest.github.io/GT-RevertRebrand/src/variables.css');
+
+/* Generated hardcoded color fixes */
+@import url('https://Goose-Nest.github.io/GT-RevertRebrand/src/hardcoded.css');
 
 
 /* Individual components: */

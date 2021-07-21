@@ -3,6 +3,8 @@
 /* [Recommended] Revert CSS variables: colors, fonts */
 @use "variables";
 
+/* Generated hardcoded color fixes */
+@use "hardcoded";
 
 /* Individual components: */
 
