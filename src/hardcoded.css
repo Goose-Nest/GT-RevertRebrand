@@ -230,7 +230,7 @@
 .theme-dark .improved-1NJK-y::after { background-color:var(--brand-experiment-360); }
 .checkmark-3rush5 { padding: 4px; border-radius: 50%; background-color: var(--info-positive-foreground); color: #ffffff; }
 .dotOnline-1Bn2aj { background-color: var(--info-positive-foreground); }
-.headerContent-1HfSPQ .searchBox-2R4IbA:focus, .headerContent-1HfSPQ .searchBox-2R4IbA:focus-within { box-shadow: 0 0 0 1pxvar(--brand-experiment),0 0 0 2px hsl(235,calc(var(--saturation-factor, 1)*85.6%),64.7%),0 0 0 3px hsl(235,calc(var(--saturation-factor, 1)*85.6%),64.7%); border-color: transparent; }
+.headerContent-1HfSPQ .searchBox-2R4IbA:focus, .headerContent-1HfSPQ .searchBox-2R4IbA:focus-within { box-shadow: 0 0 0 1px var(--brand-experiment),0 0 0 2px hsl(235,calc(var(--saturation-factor, 1)*85.6%),64.7%),0 0 0 3px hsl(235,calc(var(--saturation-factor, 1)*85.6%),64.7%); border-color: transparent; }
 .strikethrough-otdQWt { color: var(--text-danger); }
 .attachButtonPlay-3iJ0mf { color: var(--info-positive-foreground); }
 .button-1ZiXG9.dangerous-2r8KxV { color: var(--text-danger); }
