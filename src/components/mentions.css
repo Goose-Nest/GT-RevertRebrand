@@ -16,3 +16,12 @@
 /* .mentioned-xhSam7 .mention {
   background: transparent !important;
 } */
+
+/* Readd left padding for icons in mentions as our own padding removes it and breaks look */
+#app-mount .mention.iconMentionText-8GCluA {
+  padding-left: 1.2rem;
+}
+
+#app-mount .mention.iconMention-1_KJ_B {
+  padding-left: 1.3rem;
+}
