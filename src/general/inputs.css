@@ -67,3 +67,64 @@
 .colorPickerSwatch-5GX3Ve.default-cS_caM {
   background-color: var(--brand-experiment) !important;
 }
+
+/* Revert all other green elements to the old green */
+.root-3QyAh1.root-1gCeng.small-3iVZYw.fullscreenOnMobile-1bD22y .header-4zuFdR .horizontal-1ae9ci .colorGreen-29iAKY {
+  background: var(--old-green);
+}
+	
+.root-3QyAh1.root-1gCeng.small-3iVZYw.fullscreenOnMobile-1bD22y .header-4zuFdR .horizontal-1ae9ci .colorGreen-29iAKY:hover {
+  background: var(--old-green-hover2);
+}
+	
+.root-3QyAh1.root-1gCeng.small-3iVZYw.fullscreenOnMobile-1bD22y .header-4zuFdR .horizontal-1ae9ci .colorGreen-29iAKY:active {
+  background: var(--old-green-hover1);
+}
+	
+.root-3QyAh1.root-1gCeng.small-3iVZYw.fullscreenOnMobile-1bD22y .relationshipButtons-pUQVkf .actionButton-3vN-m0.colorGreen-29iAKY {
+  background: var(--old-green);
+}
+	
+.root-3QyAh1.root-1gCeng.small-3iVZYw.fullscreenOnMobile-1bD22y .relationshipButtons-pUQVkf .actionButton-3vN-m0.colorGreen-29iAKY:hover {
+  background: var(--old-green-hover2);
+}
+	
+.root-3QyAh1.root-1gCeng.small-3iVZYw.fullscreenOnMobile-1bD22y .relationshipButtons-pUQVkf .actionButton-3vN-m0.colorGreen-29iAKY:active {
+  background: var(--old-green-hover1);
+}
+	
+.root-3QyAh1.root-1gCeng.small-3iVZYw.fullscreenOnMobile-1bD22y .relationshipButtons-pUQVkf .actionButton-3vN-m0.colorGreen-29iAKY[disabled] {
+  border: solid 1px currentColor;
+  background: none;
+  color: var(--old-green);
+  opacity: 1;
+  cursor: default;
+}
+	
+.root-3QyAh1.root-1gCeng.small-3iVZYw.fullscreenOnMobile-1bD22y .relationshipButtons-pUQVkf .actionButton-3vN-m0.colorGreen-29iAKY[disabled]:hover {
+  color: var(--old-green-hover0);
+}
+	
+.lookOutlined-3sRXeN.colorGreen-29iAKY:not(:hover):not(:active) {
+  border-color: var(--old-green)4d;
+}
+	
+.lookOutlined-3sRXeN.colorGreen-29iAKY {
+  color: var(--old-green);
+}
+	
+.lookFilled-1Gx00P.colorGreen-29iAKY {
+  background-color: var(--old-green);
+}
+	
+.lookFilled-1Gx00P.colorGreen-29iAKY:hover {
+  background-color: var(--old-green-hover1);
+}
+	
+.lookFilled-1Gx00P.colorGreen-29iAKY:active {
+  background-color: var(--old-green-hover0);
+}
+	
+.lookFilled-1Gx00P.colorGreen-29iAKY:disabled {
+  background-color: var(--old-green);
+}
