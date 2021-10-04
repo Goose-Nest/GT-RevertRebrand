@@ -1,6 +1,9 @@
 body {
   /* Revert new green to old color */
   --old-green: #43b581;
+  --old-green-hover0: #369167;
+  --old-green-hover1: #3ca374;
+  --old-green-hover2: #66c69a;
   --info-positive-foreground: var(--old-green);
   --status-positive-background: var(--old-green);
   --text-positive: var(--old-green);
