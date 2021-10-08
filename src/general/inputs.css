@@ -67,3 +67,56 @@
 .colorPickerSwatch-5GX3Ve.default-cS_caM {
   background-color: var(--brand-experiment) !important;
 }
+
+/* Fixes some inputs that didn't have the green rebrand applied [Green Revert] */
+.root-3QyAh1.root-1gCeng.small-3iVZYw.fullscreenOnMobile-1bD22y .header-4zuFdR .horizontal-1ae9ci .colorGreen-29iAKY, .root-3QyAh1.root-1gCeng.small-3iVZYw.fullscreenOnMobile-1bD22y .relationshipButtons-pUQVkf .actionButton-3vN-m0.colorGreen-29iAKY, [style*="background-color: hsl(139, calc(var(--saturation-factor, 1) * 47.3%), 43.9%);"], .circleIconButton-1XqULR.selected-2jcQaY {
+  background: var(--old-green) !important;
+}
+[fill="hsl(139, calc(var(--saturation-factor, 1) * 47.3%), 43.9%)"], .circleIconButton-1XqULR {
+  fill: var(--old-green) !important;
+  color: var(--old-green);
+}
+
+/* When those input are hovered [Green Revert] */
+.root-3QyAh1.root-1gCeng.small-3iVZYw.fullscreenOnMobile-1bD22y .header-4zuFdR .horizontal-1ae9ci .colorGreen-29iAKY:hover, .root-3QyAh1.root-1gCeng.small-3iVZYw.fullscreenOnMobile-1bD22y .relationshipButtons-pUQVkf .actionButton-3vN-m0.colorGreen-29iAKY:hover {
+  background: var(--old-green-hover2) !important;
+}
+	
+/* When those input are clicked [Green Revert] */
+.root-3QyAh1.root-1gCeng.small-3iVZYw.fullscreenOnMobile-1bD22y .header-4zuFdR .horizontal-1ae9ci .colorGreen-29iAKY:active, .root-3QyAh1.root-1gCeng.small-3iVZYw.fullscreenOnMobile-1bD22y .relationshipButtons-pUQVkf .actionButton-3vN-m0.colorGreen-29iAKY:active {
+  background: var(--old-green-hover1) !important;
+}
+
+/* I'm not entirely sure what these do, though they do seem to be for the same element [Green Revert] */
+.root-3QyAh1.root-1gCeng.small-3iVZYw.fullscreenOnMobile-1bD22y .relationshipButtons-pUQVkf .actionButton-3vN-m0.colorGreen-29iAKY[disabled] {
+  border: solid 1px currentColor;
+  background: none;
+  color: var(--old-green);
+  opacity: 1;
+  cursor: default;
+}
+.root-3QyAh1.root-1gCeng.small-3iVZYw.fullscreenOnMobile-1bD22y .relationshipButtons-pUQVkf .actionButton-3vN-m0.colorGreen-29iAKY[disabled]:hover {
+  color: var(--old-green-hover0);
+}
+
+/* I'm assuming this fixs the outline for an element specifically doesn't have a hover or click reaction attached to it [Green Revert] */
+.lookOutlined-3sRXeN.colorGreen-29iAKY:not(:hover):not(:active) {
+  border-color: var(--old-green)4d;
+}
+
+/* Everything under here is for any elements that are meant to be inputs / have the "colorGreen" class, including clicking (:active) and hovering (:hover) [Green Revert] */	
+.lookOutlined-3sRXeN.colorGreen-29iAKY {
+  color: var(--old-green);
+}
+.lookFilled-1Gx00P.colorGreen-29iAKY {
+  background-color: var(--old-green);
+}
+.lookFilled-1Gx00P.colorGreen-29iAKY:hover {
+  background-color: var(--old-green-hover1);
+}
+.lookFilled-1Gx00P.colorGreen-29iAKY:active {
+  background-color: var(--old-green-hover0);
+}
+.lookFilled-1Gx00P.colorGreen-29iAKY:disabled {
+  background-color: var(--old-green);
+}
