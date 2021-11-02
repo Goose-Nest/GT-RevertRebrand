@@ -8,3 +8,11 @@
 .bd-button:active {
   background-color: var(--brand-experiment-600);
 }
+
+.wrapper-1BJsBx {
+  background-color: var(--brand-experiment) !important;
+}
+
+.wrapper-1BJsBx:hover {
+  background-color: var(--brand-experiment-560) !important;
+}
