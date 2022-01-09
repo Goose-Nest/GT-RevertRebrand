@@ -1,5 +1,5 @@
 /* Revert mentions and channel links */
-#app-mount .wrapper-3WhCwL {
+#app-mount .roleMention-11Aaqi {
   color: var(--brand-experiment-460);
   background: var(--brand-experiment-10a);
 
@@ -7,15 +7,15 @@
   padding: 0 1px;
 }
 
-#app-mount .wrapper-3WhCwL:hover {
+#app-mount .roleMention-11Aaqi:hover {
   background: var(--brand-experiment);
   color: var(--brand-experiment-100);
 }
 
 /* Hide semi-transparent background if mentioned in message */
-/* .mentioned-xhSam7 .mention {
+.mentioned-xhSam7 .mention {
   background: transparent !important;
-} */
+}
 
 /* Readd left padding for icons in mentions as our own padding removes it and breaks look */
 #app-mount .mention.iconMentionText-8GCluA {
