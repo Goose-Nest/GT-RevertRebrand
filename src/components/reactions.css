@@ -20,13 +20,13 @@
 }
 
 /* Self reactions */
-.reaction-2A2y9y.reactionMe-wv5HKu .reactionCount-1zkLcN {
+.reaction-2A2y9y.reactionMe-3I9gFK .reactionCount-1zkLcN {
   color: var(--brand-experiment); /* A11Y-- */
 }
 
-.mentioned-xhSam7 .reaction-2A2y9y.reactionMe-wv5HKu,
-.mentioned-xhSam7 .reactionMe-wv5HKu.reaction-2A2y9y:hover,
-.reaction-2A2y9y.reactionMe-wv5HKu {
+.mentioned-xhSam7 .reaction-2A2y9y.reactionMe-3I9gFK,
+.mentioned-xhSam7 .reactionMe-3I9gFK.reaction-2A2y9y:hover,
+.reaction-2A2y9y.reactionMe-3I9gFK {
   background-color: var(--brand-experiment-30a);
 }
 
