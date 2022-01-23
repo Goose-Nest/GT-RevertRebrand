@@ -28,3 +28,7 @@
 .channelNotice-1-XFjC.invite-OjTXrW {
   background: url("https://Goose-Nest.github.io/GT-RevertRebrand/assets/add_friends_to_server.svg") no-repeat center 20px;
 }
+/* Revert discord report submitted logo*/
+[src="/assets/c8d8bfacc6311892e73219a74e9cd164.svg"] {
+  content: url(https://raw.githubusercontent.com/Dabs-Rulez/GT-RevertRebrand/5be8cf04992592b84201a5e36bac97d629ae37d0/assets/ReportSubmittedLogo.svg);
+}
