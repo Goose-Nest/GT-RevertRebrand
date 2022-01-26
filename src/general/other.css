@@ -39,6 +39,10 @@
 .premiumLabel-V52REm {
   color: #7289da;
 }
+.premiumLabel-V52REm.selected-2m-n75 {
+  color: #fffbfc;
+}
+
 
 /* Online status */
 .wrapper-3t9DeA rect.pointerEvents-2zdfdO[mask="url(#svg-mask-status-online)"]:not([fill="#ffffff"]) {
