@@ -1,21 +1,33 @@
 /* Change green colorables from the new green color to the old green color. */
 /* In particular, this fixes the join call buttons, but it may also fix other stuff around the app */
-.colorable-1bkp8v.green-plH-Mj {
+.colorable-3rVGna.green-3wkLbx {
   background-color: var(--old-green);
 }
 
 /* Also fix the colorables when they're active or being hovered over, for example when hovering over the call buttons */
-.colorable-1bkp8v.green-plH-Mj.active-1QRrIS, .colorable-1bkp8v.green-plH-Mj:hover {
+.colorable-3rVGna.green-3wkLbx.active-3D763s, .colorable-3rVGna.green-3wkLbx:hover {
   background: var(--old-green);
 }
 
+/* Change red colorables from the new red color to the old red color. */
+/* In particular, this fixes the decline call buttons, but it may also fix other stuff around the app */
+.colorable-3rVGna.red-3T8maV {
+  background-color: var(--old-red);
+}
+
+/* Also fix the colorables when they're active or being hovered over, for example when hovering over the decline call buttons */
+.colorable-3rVGna.red-3T8maV.active-3D763s, .colorable-3rVGna.red-3T8maV:hover {
+  background: var(--old-red);
+}
+
+
 /* Verified check mark color */
-.verified-1eC5dy {
+.verified-1Jv_7P {
   color: var(--old-green);
 }
 
 /* Fix the speaking ring around your avatar in the bottom left corner of your screen */
-.avatarSpeaking-2c8-9i {
+.avatarSpeaking-2pCGrZ {
   box-shadow: inset 0 0 0 2px var(--old-green), inset 0 0 0 3px #2f3136;
 }
 
@@ -30,22 +42,32 @@
 }
 
 /* Revert new Nitro icon by setting item */
-.premiumTabItem-1QTfBr .icon-Zc-uZZ {
-  display: none;
+[d="M1.84006 5.4367C2.19536 5.4367 2.49139 5.14651 2.49139 4.79823C2.49139 4.44996 2.19536 4.15977 1.84006 4.15977H1.48476C1.12947 4.15977 0.83329 4.44996 0.83329 4.79823C0.83329 5.14651 1.12947 5.4367 1.48476 5.4367H1.84006ZM15.282 13.1569C18.6574 11.6477 20.0785 7.81669 18.539 4.6241C17.4731 2.36029 15.2229 1.02527 12.8542 0.909088H6.16283C5.57062 0.909088 5.15606 1.37355 5.15606 1.89597C5.15606 2.47634 5.62989 2.88271 6.16283 2.88271H7.88006C8.23535 2.88271 8.53139 3.17289 8.53139 3.52117C8.53139 3.86945 8.23535 4.15977 7.88006 4.15977H3.67575C3.32046 4.15977 3.02428 4.44996 3.02428 4.79823C3.02428 5.14651 3.32046 5.4367 3.67575 5.4367H6.69578C7.05108 5.4367 7.34711 5.72702 7.34711 6.0753C7.34711 6.42358 7.05108 6.71376 6.69578 6.71376H4.80077C4.44547 6.71376 4.14943 7.00395 4.14943 7.35222C4.14943 7.7005 4.44547 7.99083 4.80077 7.99083H6.10357C6.16283 8.68738 6.34048 9.38394 6.63652 10.0224C8.11697 13.215 12.0252 14.6081 15.282 13.1569ZM9.22163 8.83321C8.36181 6.99779 9.18283 4.82663 11.0552 3.98379C12.9277 3.14096 15.1426 3.94576 16.0024 5.78119C16.8622 7.61661 16.0413 9.78777 14.1688 10.6306C12.2964 11.4734 10.0814 10.6686 9.22163 8.83321Z"] {
+  d: path("");
+}
+[d="M14.0385 5.20456L15.2228 7.17818C15.2821 7.29423 15.2821 7.35232 15.2228 7.46837L14.0385 9.44199C13.9793 9.55803 13.8609 9.55803 13.8016 9.55803H11.4922C11.3738 9.55803 11.3146 9.49994 11.2554 9.44199L10.071 7.46837C10.0119 7.35232 10.0119 7.29423 10.071 7.17818L11.2554 5.20456C11.3146 5.08852 11.4331 5.08852 11.4922 5.08852H13.8016C13.9202 5.03042 13.9793 5.08852 14.0385 5.20456Z"] {
+  d: path("");
+}
+/* Revert new Nitro color by setting item */
+.premiumLabel-3HPvdB {
+  color: #7289da;
+}
+.premiumLabel-3HPvdB.selected-2Uns2B {
+  color: #fffbfc;
 }
 
 /* Online status */
-.wrapper-3t9DeA rect.pointerEvents-2zdfdO[mask="url(#svg-mask-status-online)"]:not([fill="#ffffff"]) {
+.wrapper-1VLyxH rect.pointerEvents-9SZWKj[mask="url(#svg-mask-status-online)"]:not([fill="#ffffff"]) {
   fill: var(--old-green);
 }
 
 /* Online status (mobile) */
-.wrapper-3t9DeA rect.pointerEvents-2zdfdO[mask="url(#svg-mask-status-online-mobile)"]:not([fill="#ffffff"]) {
+.wrapper-1VLyxH rect.pointerEvents-9SZWKj[mask="url(#svg-mask-status-online-mobile)"]:not([fill="#ffffff"]) {
   fill: var(--old-green);
 }
 
 /* Online status (typing and other) */
-.wrapper-3t9DeA svg.cursorDefault-dsQJ1n > rect[fill="#3ba55c"] {
+.wrapper-1VLyxH svg.cursorDefault--wfhy5 > rect[fill="#3ba55c"] {
   fill: var(--old-green);
 }
 
@@ -60,11 +82,11 @@
 }
 
 /* Revert the command names and 'dismiss message' button to blurple */
-.commandName-1klrjB.clickable-1bVtEA, .ephemeralMessage-1fEWtQ .anchor-3Z-8Bb.anchorUnderlineOnHover-2ESHQB[role="button"] {
+.commandName-1klrjB.clickable-1bVtEA, .ephemeralMessage-1fEWtQ .anchor-1MIwyf.anchorUnderlineOnHover-2qPutX[role="button"] {
   color: var(--brand-experiment);
 }
 
 /* Fix the color of the spotify play icon on the upload button when playing on spotify */
-.attachButtonPlay-3iJ0mf {
+.attachButtonPlay-1ATmb5 {
   color: var(--old-green);
 }
