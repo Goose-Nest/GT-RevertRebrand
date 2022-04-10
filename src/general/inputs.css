@@ -1,8 +1,8 @@
 /* Restyle the create server and discovery buttons to the old green */
-.circleIconButton-1QV--U.circleButtonBase-2DCxIZ {
+.circleIconButton-1VxDrg {
   color: var(--old-green);
 }
-.circleIconButton-1QV--U.circleButtonBase-2DCxIZ.selected-1JjBPm {
+.circleIconButton-1VxDrg.selected-2r1Hvo {
   color: white;
   background-color: var(--old-green);
 }
@@ -18,10 +18,10 @@
 }
 
 /* Restyle the create server and discovery buttons to the old green */
-.circleIconButton-1QV--U.circleButtonBase-2DCxIZ {
+.circleIconButton-1VxDrg {
   color: var(--old-green);
 }
-.circleIconButton-1QV--U.circleButtonBase-2DCxIZ.selected-1JjBPm {
+.circleIconButton-1VxDrg.selected-2r1Hvo {
   color: white;
   background-color: var(--old-green);
 }
