@@ -60,7 +60,7 @@
 /* Fixed "Add Friend" button to correct colors when selected */
 .item-3mHhwr.item-3XjbnG.themed-2-lozF[aria-selected*="true"][style*="color: hsl(139"] {
   color: var(--old-green) !important;
-  background-color: var(--old-green-transparent) !important;
+  background-color: #33524c !important;
 }
 
 /* Color picker default to blurple instead of new brand color */
