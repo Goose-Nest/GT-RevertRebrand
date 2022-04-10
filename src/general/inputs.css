@@ -67,3 +67,9 @@
 .colorPickerSwatch-RTUGRR.default-3ISV7m {
   background-color: var(--brand-experiment) !important;
 }
+
+/* Revert the progress bar when uploading files back to blurple */
+.progressBar-1T6LYX {
+    background-color: var(--brand-experiment) !important;
+}
+
