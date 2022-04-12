@@ -1,21 +1,33 @@
 /* Change green colorables from the new green color to the old green color. */
 /* In particular, this fixes the join call buttons, but it may also fix other stuff around the app */
-.colorable-1bkp8v.green-plH-Mj {
+.colorable-3rVGna.green-3wkLbx {
   background-color: var(--old-green);
 }
 
 /* Also fix the colorables when they're active or being hovered over, for example when hovering over the call buttons */
-.colorable-1bkp8v.green-plH-Mj.active-1QRrIS, .colorable-1bkp8v.green-plH-Mj:hover {
+.colorable-3rVGna.green-3wkLbx.active-3D763s, .colorable-3rVGna.green-3wkLbx:hover {
   background: var(--old-green);
 }
 
+/* Change red colorables from the new red color to the old red color. */
+/* In particular, this fixes the decline call buttons, but it may also fix other stuff around the app */
+.colorable-3rVGna.red-3T8maV {
+  background-color: var(--old-red);
+}
+
+/* Also fix the colorables when they're active or being hovered over, for example when hovering over the decline call buttons */
+.colorable-3rVGna.red-3T8maV.active-3D763s, .colorable-3rVGna.red-3T8maV:hover {
+  background: var(--old-red);
+}
+
+
 /* Verified check mark color */
-.verified-1eC5dy {
+.verified-1Jv_7P {
   color: var(--old-green);
 }
 
 /* Fix the speaking ring around your avatar in the bottom left corner of your screen */
-.avatarSpeaking-2c8-9i {
+.avatarSpeaking-2pCGrZ {
   box-shadow: inset 0 0 0 2px var(--old-green), inset 0 0 0 3px #2f3136;
 }
 
@@ -30,22 +42,30 @@
 }
 
 /* Revert new Nitro icon by setting item */
-.premiumTabItem-1QTfBr .icon-Zc-uZZ {
-  display: none;
+div[class*="premiumLabel-"] > svg {
+ display: none;
+}
+
+/* Revert new Nitro color by setting item */
+.premiumLabel-3HPvdB {
+  color: #7289da;
+}
+.premiumLabel-3HPvdB.selected-2Uns2B {
+  color: #fffbfc;
 }
 
 /* Online status */
-.wrapper-3t9DeA rect.pointerEvents-2zdfdO[mask="url(#svg-mask-status-online)"]:not([fill="#ffffff"]) {
+.wrapper-1VLyxH rect.pointerEvents-9SZWKj[mask="url(#svg-mask-status-online)"]:not([fill="#ffffff"]) {
   fill: var(--old-green);
 }
 
 /* Online status (mobile) */
-.wrapper-3t9DeA rect.pointerEvents-2zdfdO[mask="url(#svg-mask-status-online-mobile)"]:not([fill="#ffffff"]) {
+.wrapper-1VLyxH rect.pointerEvents-9SZWKj[mask="url(#svg-mask-status-online-mobile)"]:not([fill="#ffffff"]) {
   fill: var(--old-green);
 }
 
 /* Online status (typing and other) */
-.wrapper-3t9DeA svg.cursorDefault-dsQJ1n > rect[fill="#3ba55c"] {
+.wrapper-1VLyxH svg.cursorDefault--wfhy5 > rect[fill="#3ba55c"] {
   fill: var(--old-green);
 }
 
@@ -60,11 +80,11 @@
 }
 
 /* Revert the command names and 'dismiss message' button to blurple */
-.commandName-1klrjB.clickable-1bVtEA, .ephemeralMessage-1fEWtQ .anchor-3Z-8Bb.anchorUnderlineOnHover-2ESHQB[role="button"] {
+.commandName-1klrjB.clickable-1bVtEA, .ephemeralMessage-1fEWtQ .anchor-1MIwyf.anchorUnderlineOnHover-2qPutX[role="button"] {
   color: var(--brand-experiment);
 }
 
 /* Fix the color of the spotify play icon on the upload button when playing on spotify */
-.attachButtonPlay-3iJ0mf {
+.attachButtonPlay-1ATmb5 {
   color: var(--old-green);
 }
