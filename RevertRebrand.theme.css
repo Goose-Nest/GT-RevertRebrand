@@ -6,7 +6,7 @@
   * @invite neMncS2
   * @source https://Goose-Nest.github.io/GT-RevertRebrand/src/RevertRebrand.theme.css
   * @website https://github.com/Goose-Nest/GT-RevertRebrand
-  * @version 5.2
+  * @version 6.0
 */
 
 /* If you do not want some things reverted, commend out imports like /* @import url("...") */
@@ -38,6 +38,8 @@
 /* [Optional] Revert new user popouts */
 /* @import url('https://Goose-Nest.github.io/GT-RevertRebrand/src/components/userPopout.css'); */
 
+/* [Optional] Revert new role designs */
+/* @import url('https://Goose-Nest.github.io/GT-RevertRebrand/src/components/roles.css'); */
 
 /* General changes: */
 
