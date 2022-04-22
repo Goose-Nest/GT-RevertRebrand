@@ -80,11 +80,11 @@ div[class*="premiumLabel-"] > svg {
 }
 
 /* Revert the command names and 'dismiss message' button to blurple */
-.commandName-1klrjB.clickable-1bVtEA, .ephemeralMessage-1fEWtQ .anchor-1MIwyf.anchorUnderlineOnHover-2qPutX[role="button"] {
+.commandName-1KhvGm.clickable-31pE3P, .ephemeralMessage-11q8XZ .anchor-1MIwyf.anchorUnderlineOnHover-2qPutX[role="button"] {
   color: var(--brand-experiment);
 }
 
 /* Fix the color of the spotify play icon on the upload button when playing on spotify */
-.attachButtonPlay-1ATmb5 {
+div[class*="attachButtonPlay-"] {
   color: var(--old-green);
 }
