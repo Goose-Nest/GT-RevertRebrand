@@ -88,3 +88,8 @@ div[class*="premiumLabel-"] > svg {
 .attachButtonPlay-1ATmb5 {
   color: var(--old-green);
 }
+
+/* Green tooltips */
+.tooltipGreen-oouJdx {
+  background-color: var(--old-green) !important;
+}
