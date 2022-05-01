@@ -93,3 +93,7 @@ div[class*="attachButtonPlay-"] {
 .tooltipGreen-oouJdx {
   background-color: var(--old-green) !important;
 }
+/* Revert background of fake activity icon when customizing profile */
+.fakeActivityIcon-KeXVoI.wumpus-otZFUO {
+    background-color: var(--brand-experiment);
+}
