@@ -97,3 +97,7 @@ div[class*="attachButtonPlay-"] {
 .fakeActivityIcon-KeXVoI.wumpus-otZFUO {
     background-color: var(--brand-experiment);
 }
+/* Revert some buttons on login page back to old blurple */
+.marginBottom20-315RVT.marginTop4-2JFJJI.linkButton-2ax8wP.button-f2h6uQ.lookLink-15mFoz.lowSaturationUnderline-Z6CW6z.colorLink-1Md3RZ.sizeMin-DfpWCE.grow-2sR_-F .contents-3ca1mk, .smallRegisterLink-1qEJhz.linkButton-2ax8wP.button-f2h6uQ.lookLink-15mFoz.lowSaturationUnderline-Z6CW6z.colorLink-1Md3RZ.sizeMin-DfpWCE.grow-2sR_-F .contents-3ca1mk, .marginTop8-24uXGp.linkButton-2ax8wP.button-f2h6uQ.lookLink-15mFoz.lowSaturationUnderline-Z6CW6z.colorLink-1Md3RZ.sizeMin-DfpWCE.grow-2sR_-F .contents-3ca1mk, .colorStandard-21JIj7.size12-oc4dx4.subText-1fpEGH.marginTop20-2T8ZJx .anchor-1MIwyf.anchorUnderlineOnHover-2qPutX {
+    color: var(--brand-experiment);
+}
