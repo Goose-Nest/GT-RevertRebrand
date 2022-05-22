@@ -17,3 +17,8 @@
   width: 10px;
   height: 10px;
 }
+.addButtonIcon-3HZ_2f>path {
+    d: path('M3 0h1v7H3zM0 3h7v1H0z');
+    color: #b9bbbe;
+    transform: scale(calc(24 / 7));
+}
