@@ -17,25 +17,6 @@
   border-color: var(--brand-experiment);
 }
 
-/* Restyle the create server and discovery buttons to the old green */
-.circleIconButton-1VxDrg {
-  color: var(--old-green);
-}
-.circleIconButton-1VxDrg.selected-2r1Hvo {
-  color: white;
-  background-color: var(--old-green);
-}
-
-/* On switches to old green */
-.container-2nx-BQ[style*="opacity: 1; background-color: hsl(139"] {
-    background-color: var(--old-green) !important;
-}
-
-/* Text input focus border color is now focus / link, change back to original brand color */
-.input-2yCVqe.focused-1AtTHC, .input-2yCVqe:focus {
-  border-color: var(--brand-experiment);
-}
-
 /* Change all radio bars with the new green to the old green */
 /* In particular, this fixes the privacy and safety settings' 'keep me safe' option */
 .radioBar-3w9XY-[style*="--radio-bar-accent-color:hsl(139"] {
