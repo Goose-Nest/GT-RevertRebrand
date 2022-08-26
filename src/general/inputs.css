@@ -34,12 +34,12 @@
 }
 
 /* Revert the 'Add Friend' button to the old green*/
-.item-3mHhwr.item-3XjbnG.themed-2-lozF[style*="background-color: hsl(139"] {
+.item-3mHhwr.addFriend-emTWY1.item-3XjbnG.themed-2-lozF {
     background-color: var(--old-green) !important;
 }
 
 /* Fixed "Add Friend" button to correct colors when selected */
-.item-3mHhwr.item-3XjbnG.themed-2-lozF[aria-selected*="true"][style*="color: hsl(139"] {
+.item-3mHhwr.addFriend-emTWY1.item-3XjbnG.selected-g-kMVV.themed-2-lozF {
   color: var(--old-green) !important;
   background-color: #33524c !important;
 }
