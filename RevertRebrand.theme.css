@@ -54,3 +54,20 @@
 
 /* Revert some other minor things */
 @import url('https://Goose-Nest.github.io/GT-RevertRebrand/src/general/other.css');
+
+/* Revert 2022 font change */
+@font-face{font-family:Whitney;font-style:normal;font-weight:300;src:url(/assets/aa547e7d321c25791de2252ee2294220.woff2) format("woff2")}
+@font-face{font-family:Whitney;font-style:italic;font-weight:300;src:url(/assets/6dab543d77316e020f4a6a951e69e4c3.woff2) format("woff2")}
+@font-face{font-family:Whitney;font-style:normal;font-weight:400;src:url(/assets/ffc447aadf554fbb0b4a34cacee083a5.woff2) format("woff2")}
+@font-face{font-family:Whitney;font-style:italic;font-weight:400;src:url(/assets/0ad909f272b0ece31d9ba2222d4c9e63.woff2) format("woff2")}
+@font-face{font-family:Whitney;font-style:normal;font-weight:500;src:url(/assets/b63701648c7e5a9d6ad67a0866cf9ecd.woff2) format("woff2")}
+@font-face{font-family:Whitney;font-style:italic;font-weight:500;src:url(/assets/161543c19f87e7bc8126044be2b5f50f.woff2) format("woff2")}
+@font-face{font-family:Whitney;font-style:normal;font-weight:600;src:url(/assets/10bf925aa3b5eea72cffce5ab37d6c49.woff2) format("woff2")}
+@font-face{font-family:Whitney;font-style:italic;font-weight:600;src:url(/assets/6a4f76f9849935bd57822e9428481f1c.woff2) format("woff2")}
+@font-face{font-family:Whitney;font-style:normal;font-weight:700;src:url(/assets/3d0099ecfaf7718dad3fb6cb3c0ee650.woff2) format("woff2")}
+@font-face{font-family:Whitney;font-style:italic;font-weight:700;src:url(/assets/4904116ba8b56f50018a30c364d52b87.woff2) format("woff2")}
+
+:root {
+    --font-primary: "Whitney","Noto Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+    --font-display: "Whitney","Noto Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
